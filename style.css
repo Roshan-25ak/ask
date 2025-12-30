@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 14px 32px;
+  font-weight: 600;
+}
+
+#yesBtn {
+  background: #4ade80;
+  color: black;
+  cursor: pointer;
+}
+
+#noBtn {
+  background: #ef4444;
+  color: white;
+  position: absolute;
+  left: 60%;
+  top: 55%;
+
+  /* ❗ Completely disables interaction */
+  pointer-events: none;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
